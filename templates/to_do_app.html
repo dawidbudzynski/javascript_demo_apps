@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="{% static 'css/toDoAppStyle.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="{% static 'img/icon.png' %}"/>
+</head>
+<body>
+
+<div id="container">
+    <h1>To-Do List <i class="fas fa-plus"></i></h1>
+    <input type="text" placeholder="Add new task"/>
+    <ul>
+        <li>
+            <span><i class="fas fa-trash"></i></span> Task 1
+        </li>
+        <li>
+            <span><i class="fas fa-trash"></i></span> Task 2
+        </li>
+        <li>
+            <span><i class="fas fa-trash"></i></span> Task 3
+        </li>
+        <li>
+            <span><i class="fas fa-trash"></i></span> Task 4
+        </li>
+        <li>
+            <span><i class="fas fa-trash"></i></span> Task 5
+        </li>
+    </ul>
+</div>
+
+<script src="{% static 'js/toDoApp.js' %}"></script>
+</body>
+</html>

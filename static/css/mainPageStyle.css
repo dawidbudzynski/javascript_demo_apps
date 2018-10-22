@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.btn-secondary {
+    width: 300px;
+}

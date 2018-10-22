@@ -44,3 +44,7 @@ $ python manage.py runserver
 
 ## Demo
 ## https://javascriptdemoapps.herokuapp.com/
+
+![alt text](https://raw.githubusercontent.com/dawidbudzynski/javascript_demo_apps/master/static/img/color_game.png)
+![alt text](https://raw.githubusercontent.com/dawidbudzynski/javascript_demo_apps/master/static/img/to_do_list.png)
+![alt text](https://raw.githubusercontent.com/dawidbudzynski/javascript_demo_apps/master/static/img/patatap_app.gif)

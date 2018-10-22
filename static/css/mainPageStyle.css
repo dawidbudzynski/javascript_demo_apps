@@ -1,5 +1,9 @@
 body {
-    background-color: black;
+    background-color: #19479e;
+}
+
+.container {
+    text-align: center;
 }
 
 h1 {
@@ -7,6 +11,12 @@ h1 {
     color: white;
 }
 
-.btn-secondary {
-    width: 300px;
+.btn-primary{
+    width: 550px;
+    background-color: #5da6e7;
+}
+
+img {
+    width: 550px;
+    height: 250px;
 }

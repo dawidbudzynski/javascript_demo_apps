@@ -16,27 +16,29 @@
 <div class="container">
     <h1>JavaScript Demo Apps</h1>
     <div class="row">
-        <div class="col col-md-4">
-            <a class="btn btn-secondary" href="{% url 'color_game' %}">Color Guessing Game</a>
+        <div class="col col-md-12">
+            <a class="btn btn-primary" href="{% url 'color_game' %}">Color Guessing Game</a>
         </div>
-        <div class="col col-md-8">
-            <p>Here will be image</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col col-md-4">
-            <a class="btn btn-secondary" href="{% url 'patatap_app' %}">Patatap App Clone</a>
-        </div>
-        <div class="col col-md-8">
-            <p>Here will be image</p>
+        <div class="col col-md-12">
+            <img src="{% static 'img/color_game.png' %}" alt="">
         </div>
     </div>
+    <p></p>
     <div class="row">
-        <div class="col col-md-4">
-            <a class="btn btn-secondary" href="{% url 'to_do_app' %}">To Do List App</a>
+        <div class="col col-md-12">
+            <a class="btn btn-primary" href="{% url 'patatap_app' %}">Patatap App Clone</a>
         </div>
-        <div class="col col-md-8">
-            <p>Here will be image</p>
+        <div class="col col-md-12">
+             <img src="{% static 'img/patatap_app.gif' %}" alt="">
+        </div>
+    </div>
+    <p></p>
+    <div class="row">
+        <div class="col col-md-12">
+            <a class="btn btn-primary" href="{% url 'to_do_app' %}">To Do List App</a>
+        </div>
+        <div class="col col-md-12">
+            <img src="{% static 'img/to_do_list.png' %}" alt="">
         </div>
     </div>
 </div>

@@ -41,3 +41,6 @@ $ pip install -r requirements.txt
 ```
 $ python manage.py runserver
 ```
+
+## Demo
+## https://javascriptdemoapps.herokuapp.com/
